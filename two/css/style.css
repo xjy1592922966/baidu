@@ -1,6 +1,200 @@
-*{margin:0px ; padding: 0px;}
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: "微软雅黑";
+}
 
-.father{ width: 100%;overflow: hidden; }
-header.father { background: #333333;}
-footer.father { background: #333333;}
-main { background: #dedede;}
+body > header {
+	background: #333333;
+}
+
+header > nav {
+	margin: 0px 15px 0px 15px;
+	height: 60px;
+}
+
+header > nav > h1 {
+	color: white;
+	float: left;
+	padding: 13px 0px;
+}
+
+header > nav > ul {
+	float: right;
+	margin-top: 19px;
+}
+
+header > nav > ul li {
+	float: left;
+	margin-left: 40px;
+}
+
+header > nav > ul li a {
+	color: white;
+	text-decoration: none;
+}
+
+header > nav > ul li a:hover {
+	color: #999999;
+}
+
+main {
+	background: #dedede;
+	padding: 20px;
+}
+
+main > section,
+aside {
+	margin-bottom: 20px;
+	background: #FFFFFF;
+	padding: 20px;
+	box-shadow: 2px 2px 2px #333333;
+}
+
+main > section > h2 {
+	font-size: 20px;
+	margin-bottom: 10px;
+	border-bottom: 1px solid #DEDEDE;
+	padding-bottom: 5px;
+}
+
+main > section > article > header {
+	font-size: 16px;
+	color: #666666;
+	margin-bottom: 10px;
+}
+
+main > section > article > header > h2 {
+	font-size: 16px;
+	color: #666666;
+	margin-bottom: 10px;
+}
+
+main > section > article > header > p {
+	font-size: 12px;
+	color: #999999;
+}
+
+main > section > article > p {
+	line-height: 25px;
+	text-indent: 20px;
+	font-size: 14px;
+}
+
+main > section > article > dl li {
+	list-style-type: none;
+	margin-left: 40px;
+	font-size: 14px;
+}
+
+main > section > div {
+	overflow: hidden;
+}
+
+main > section > div > figure {
+	border: 1px solid #cccccc;
+	padding: 10px;
+	float: left;
+	margin: 0px 8px 15px 8px;
+}
+
+main > section > div > figure > figcaption {
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+main > section > article > ol {
+	margin: 20px;
+	font-size: 14px;
+}
+
+main > section > article > ol li {
+	margin-left: 20px;
+	font-size: 14px;
+	line-height: 25px;
+}
+
+main > section > article > table {
+	width: 100%;
+	font-size: 14px;
+	line-height: 23px;
+	border-collapse: collapse;
+}
+
+main > section > article > table caption,
+main > section > article > table th {
+	text-align: left;
+}
+
+main > section > article > table,
+main > section > article > table th,
+main > section > article > table td {
+	border: 1px solid #cccccc;
+}
+
+main > section > article > table td,
+main > section > article > table th {
+	padding: 5px;
+}
+
+main > section > article > table thead {
+	height: 24px;
+	background: #333333;
+	color: white;
+	font-weight: bold;
+}
+
+main > section > article > table tfoot {
+	background: #cccccc;
+	color: 000000;
+	font-weight: bold;
+}
+
+main > aside > header > h2 {
+	border-left: 3px solid #CCCCCC;
+	padding-left: 10px;
+	margin-bottom: 20px;
+	line-height: 40px;
+}
+
+aside table {
+	width: 100%;
+	font-size: 12px;
+	line-height: 30px;
+}
+
+aside table tbody > tr > td:first-child {
+	text-align: right;
+}
+
+aside table tbody td > textarea {
+	width: 80%;
+}
+
+aside table tfoot td > input {
+	width: 100%;
+	line-height: 40px;
+	color: white;
+	background: #3366cc;
+	font-weight: bolder;
+	border: none;
+	border-radius: 10px;
+	box-shadow: 1px 1px 1px black;
+}
+
+aside table tfoot td > input:hover {
+	background: blue;
+}
+
+div.tishi {
+	color: #cccccc
+}
+
+footer {
+	background: #333333;
+	height: 70px;
+	text-align: center;
+	line-height: 70px;
+	color: white;
+	font-size: 12px;
+}

@@ -1,0 +1,37 @@
+body {
+	padding: 10px;
+	overflow: hidden;
+}
+
+main {
+	padding: 10px;
+	border: #999999;
+	background: #eeeeee;
+	overflow: hidden;
+	position: relative;
+}
+
+div {
+	padding: 10px;
+}
+
+#left {
+	overflow: hidden;
+	background: white;
+	width: 180px;
+	float: left;
+}
+
+#center {
+	overflow: hidden;
+	word-wrap: break-word;
+	min-width:200px;
+}
+
+#right {
+	right: 0px;
+	overflow: hidden;
+	background: white;
+	width: 100px;
+	float: right;
+}
