@@ -1,6 +1,100 @@
-*{margin:0px ; padding: 0px;}
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "微软雅黑";
+}
 
-.father{ width: 100%;overflow: hidden; }
-header.father { background: #333333;}
-footer.father { background: #333333;}
-main { background: #dedede;}
+
+
+body >header {
+    background: #333333;
+}
+
+header > nav {
+    margin: 0px 15px 0px 15px;
+    height: 60px;
+}
+
+header > nav > h1 {
+    color: white;
+    float: left;
+    padding: 13px 0px;
+}
+
+header > nav > ul {
+    float: right;
+    margin-top: 19px;
+}
+
+header > nav > ul li {
+    float: left;
+    margin-left: 40px;
+}
+
+header > nav > ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+header > nav > ul li a:hover {
+    color: #999999;
+}
+
+main {
+    background: #dedede;
+    padding: 20px;
+}
+
+main > section,
+aside {
+    margin-bottom: 20px;
+    background: #FFFFFF;
+    padding: 20px;
+    box-shadow: 2px 2px 2px #333333;
+}
+
+main > section > h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #DEDEDE;
+    padding-bottom: 5px;
+}
+
+main > section > article > header {
+    font-size: 16px;
+    color: #666666;
+    margin-bottom: 10px;
+}
+
+main > section > article > header > h2 {
+    font-size: 16px;
+    color: #666666;
+    margin-bottom: 10px;
+}
+
+main > section > article > header > p {
+    font-size: 12px;
+    color: #999999;
+}
+
+main > section > article > p {
+    line-height: 25px;
+    text-indent: 20px;
+    font-size: 14px;
+}
+
+main > section > article > dl li {
+    list-style-type: none;
+    margin-left: 40px;
+    font-size: 14px;
+}
+
+
+footer {
+    background: #333333;
+    height: 70px;
+    text-align: center;
+    line-height: 70px;
+    color: white;
+    font-size: 12px;
+}
