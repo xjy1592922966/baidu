@@ -1,0 +1,6 @@
+*{margin:0px ; padding: 0px;}
+
+.father{ width: 100%;overflow: hidden; }
+header.father { background: #333333;}
+footer.father { background: #333333;}
+main { background: #dedede;}
