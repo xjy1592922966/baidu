@@ -1,0 +1,159 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "微软雅黑";
+	margin: 0px;
+}
+
+body > header {
+	background: #333333;
+	min-height: 60px;
+	overflow: hidden;
+	min-width: 502px;
+}
+
+header > nav {
+	margin: 0px 15px 0px 15px;
+	min-width: 440px;
+}
+
+header > nav > h1 {
+	margin: 0px;
+	color: white;
+	float: left;
+	padding: 13px 0px;
+}
+
+header > nav > ul {
+	float: right;
+	margin-top: 19px;
+}
+
+header > nav > ul li {
+	float: left;
+	margin-left: 20px;
+	list-style-type: none;
+}
+
+header > nav > ul li a {
+	color: white;
+	text-decoration: none;
+}
+
+header > nav > ul li a:hover {
+	color: #999999;
+}
+
+main {
+	padding: 20px;
+	border: 1px solid #999999;
+	background: #eeeeee;
+	overflow: hidden;
+	position: relative;
+	min-width: 530px;
+	margin: 20px;
+}
+
+section {
+	padding: 20px;
+	border: 1px solid #999999;
+}
+
+#name {
+	overflow: hidden;
+	background: white;
+	width: 200px;
+	float: left;
+	font-size: 14px;
+	text-align: center;
+	font-size: 12px;
+}
+
+#name img {
+	display: block;
+	float: left;
+	margin: 0px auto;
+	height: 80px;
+	width: 80px;
+}
+
+#describe {
+	background: white;
+	overflow: hidden;
+	line-height: 25px;
+	word-break: break-all;
+	margin: 0px 140px 0px 220px;
+}
+
+#describe dl {
+	border: 1px solid #999999;
+	padding: 20px;
+	border-radius: 20px;
+	margin-bottom: 0px;
+}
+
+#describe dt {
+	border-bottom: 3px solid #3366cc;
+	padding: 5px 40px 5px 10px;
+	font-weight: bold;
+}
+
+#describe dd {
+	font-size: 14px;
+	padding: 20px 0px 20px 0px;
+}
+
+#member {
+	padding: 19px;
+	right: 0px;
+	overflow: hidden;
+	background: white;
+	width: 120px;
+	float: right;
+	box-sizing: border-box;
+}
+
+#member ul {
+	margin: 0px;
+	padding: 0px;
+}
+
+#member li {
+	padding: 0px;
+	list-style: none;
+	display: block;
+	height: 80px;
+	width: 80px;
+	margin-top: 20px;
+	overflow: hidden;
+	border: 1px solid #999;
+}
+
+#member li:first-child {
+	margin: 0px;
+}
+
+#member li > a > img {
+	width: 80px;
+	border: 0px;
+}
+
+#member li > a > img.cai {
+	width: 80px;
+	position: relative;
+	top: -12px;
+}
+
+#member li > a > img.zhang {
+	height: 80px;
+	position: relative;
+	top: -2px
+}
+
+#member li > a > img.xia {
+	width: 80px;
+	position: relative;
+	top: -12px
+}
