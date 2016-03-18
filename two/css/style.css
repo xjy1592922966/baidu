@@ -6,6 +6,8 @@
 
 body > header {
 	background: #333333;
+	max-height: 140px;
+	overflow: hidden;
 }
 
 header > nav {
@@ -21,7 +23,7 @@ header > nav > h1 {
 
 header > nav > ul {
 	float: right;
-	margin-top: 19px;
+	margin: 19px 0px;
 }
 
 header > nav > ul li {
