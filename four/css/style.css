@@ -1,0 +1,206 @@
+* {
+	box-sizing: border-box;
+}
+
+body,
+html {
+	height: 100%;
+	font-family: "微软雅黑";
+	margin: 0px;
+}
+
+body > header {
+	width: 100%;
+	background: #333333;
+	max-height: 140px;
+	overflow: hidden;
+	position: absolute;
+	top: 0px;
+	z-index: 1;
+}
+
+header > nav {
+	margin: 0px 15px 0px 15px;
+	min-width: 440px;
+}
+
+header > nav > h1 {
+	margin: 0px;
+	color: white;
+	float: left;
+	padding: 13px 0px;
+}
+
+header > nav > ul {
+	float: right;
+	margin: 19px 0px;
+}
+
+header > nav > ul li {
+	float: left;
+	margin-left: 20px;
+	list-style-type: none;
+}
+
+header > nav > ul li a {
+	color: white;
+	text-decoration: none;
+}
+
+header > nav > ul li a:hover {
+	color: #999999;
+}
+
+main {
+	height: 100%;
+	padding-top: 60px;
+	position: relative;
+	top: 120px;
+}
+
+
+/* 内层使用相对定位，给两个子元素使用绝对定位做好铺垫*/
+
+.nei {
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+
+.son {
+	width: 100px;
+	height: 100px;
+	border-radius: 50px;
+	background: #ffcc00;
+}
+
+
+/* 这里里面两个黄色的圆使用margin进行移动 */
+
+
+/*
+ 	优缺点分析：
+ 	
+ 		优点：
+ 		1.使用的时候，可以不用考虑 父的宽。
+ 		
+ 		注意： 因为在按照我理解的来使用margin-bottom ： 负值 的时候没效果。 所以只能使用margin-top 。
+ 		
+ 		缺点：
+		1.父需要是相对定位， 因此该任务需要为灰色长方形追加一个内框并且加上相对定位。
+  		2.如果 父 内除了这个两个元素还有别的元素，那么那些元素的排版会受到这两个圆在标准文档流内的占位的影响。会给我们造成困扰
+  */
+
+
+/*
+.father {
+	width: 400px;
+	height: 200px;
+	background: #CCCCCC;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-top: -100px;
+	margin-left: -200px;
+	overflow: hidden;
+	z-index: 1;
+}
+
+.first {
+	float: left;
+	clear: both;
+	margin-left: -50px;
+	margin-top: -50px;
+}
+
+.second {
+	float: right;
+	clear: both;
+	margin-right: -50px;
+	margin-top: 100px;
+}
+*/
+
+
+/* 里面的两个圆使用absolute*/
+
+
+/*
+ 	优缺点分析：
+ 	
+ 		优点：
+ 		1.使用的时候，可以不用考虑 父的长宽。
+ 		2，父内的标准文档流不会受到这两个元素的影响。
+ 		
+ 		缺点：
+		1.父需要是相对定位， 因此该任务需要为灰色长方形追加一个内框并且加上相对定位。
+  */
+
+
+/*
+.father {
+	width: 400px;
+	height: 200px;
+	background: #CCCCCC;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-top: -100px;
+	margin-left: -200px;
+	overflow: hidden;
+	z-index: 1;
+}
+
+.first {
+	position: absolute;
+	top: -50px;
+	left: -50px;
+}
+
+.second {
+	position: absolute;
+	right: -50px;
+	bottom: -50px;
+}
+
+*/
+
+
+/* 里面的两个圆使用相对定位 */
+
+
+/*
+ 	优缺点分析：
+ 	
+ 		优点：
+ 		1.根据当前文档流位置进行计算便可得出 top 与left的值。书写的时候很方便
+ 		
+ 		缺点：
+ 		1.如果 父 的边框未知，那么这效果做不出来。
+ 		2.如果 父 内除了这个两个元素还有别的元素，那么那些元素的排版会受到这两个圆在标准文档流内的占位的影响。会给我们造成困扰
+  */
+
+.father {
+	width: 400px;
+	height: 200px;
+	background: #CCCCCC;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-top: -100px;
+	margin-left: -200px;
+	overflow: hidden;
+	z-index: 1;
+}
+
+.first {
+	position: relative;
+	top: -50px;
+	left: -50px;
+}
+
+.second {
+	position: relative;
+	top: 50px;
+	left: 350px;
+}
