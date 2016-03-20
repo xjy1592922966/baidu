@@ -4,40 +4,46 @@
 	font-family: "微软雅黑";
 }
 
+body{
+            min-width: 690px;
+}
+
 body > header {
-	background: #333333;
-	max-height: 140px;
-	overflow: hidden;
+    min-width: 640px;
+    background: #333333;
+    max-height: 140px;
+    overflow: hidden;
 }
 
 header > nav {
-	margin: 0px 15px 0px 15px;
-	height: 60px;
+    margin: 0px 15px 0px 15px;
+    height: 60px;
 }
 
 header > nav > h1 {
-	color: white;
-	float: left;
-	padding: 13px 0px;
+    color: white;
+    float: left;
+    padding: 13px 0px;
 }
 
 header > nav > ul {
-	float: right;
-	margin: 19px 0px;
+    float: right;
+    margin: 19px 0px;
 }
 
 header > nav > ul li {
-	float: left;
-	margin-left: 40px;
+    float: left;
+    font-size: 12px;
+    margin-left: 40px;
 }
 
 header > nav > ul li a {
-	color: white;
-	text-decoration: none;
+    color: white;
+    text-decoration: none;
 }
 
 header > nav > ul li a:hover {
-	color: #999999;
+    color: #999999;
 }
 
 main {

@@ -4,11 +4,12 @@
     font-family: "微软雅黑";
 }
 
-body {
-    min-width: 310px;
+body{
+            min-width: 690px;
 }
 
-body >header {
+body > header {
+    min-width: 640px;
     background: #333333;
     max-height: 140px;
     overflow: hidden;
@@ -32,6 +33,7 @@ header > nav > ul {
 
 header > nav > ul li {
     float: left;
+    font-size: 12px;
     margin-left: 40px;
 }
 
@@ -93,6 +95,16 @@ main > section > article > dl li {
     font-size: 14px;
 }
 
+section.banner dl {
+    background: black;
+}
+
+section.banner img {
+    width: 60%;
+    margin: 0px auto;
+    display: block;
+}
+
 footer {
     background: #333333;
     height: 70px;
@@ -100,4 +112,10 @@ footer {
     line-height: 70px;
     color: white;
     font-size: 12px;
+}
+
+@media only screen and (max-width: 520px) {
+    section.banner img {
+        width: 100%;
+    }
 }

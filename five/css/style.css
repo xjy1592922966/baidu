@@ -4,6 +4,9 @@
 	font-family: "微软雅黑";
 }
 
+body{
+            min-width: 690px;
+}
 
 body > header {
     min-width: 640px;

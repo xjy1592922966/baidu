@@ -5,6 +5,7 @@
 body {
 	font-family: "微软雅黑";
 	margin: 0px;
+	min-width: 660px;
 }
 
 body > header {
@@ -13,6 +14,7 @@ body > header {
 	overflow: hidden;
 	min-width: 550px;
 }
+
 
 header > nav {
 	margin: 0px 15px 0px 15px;
