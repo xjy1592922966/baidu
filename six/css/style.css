@@ -1,0 +1,423 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "微软雅黑";
+}
+
+body {
+    margin: 0px auto;
+    height: 1386px;
+    width: 980px;
+}
+
+body > header {
+    position: relative;
+    margin: 0px auto;
+    width: 892px;
+    height: 61px;
+    border-bottom: 2px solid #938e8c;
+    font-size: 12px;
+    line-height: 25px;
+    font-family: "黑体";
+}
+
+header > div.logo {
+    background-color: #d45d5c;
+    width: 110px;
+    height: 61px;
+    color: white;
+    vertical-align: bottom;
+    display: table-cell;
+    text-align: center;
+}
+
+header > time {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    color: #d45d5c;
+}
+
+main {
+    margin: 0px auto;
+    width: 892px;
+}
+
+main > article {
+    margin: 35px 0px 40px 0px;
+}
+
+article > header > .banner {
+    width: 641px;
+    height: 301px;
+    display: block;
+    background: url(../img/banner.png) no-repeat;
+    background-size: 100% 100%;
+    float: left;
+}
+
+header > .banner > .left {
+    width: 191px;
+    height: 301px;
+    float: left;
+    background: #428c59;
+    opacity: 0.5;
+}
+
+header > .banner > .right {
+    width: 191px;
+    height: 301px;
+    float: right;
+    background: #cc7680;
+    opacity: 0.5;
+}
+
+article > header > .about {
+    font-family: "微软雅黑";
+    width: 200px;
+    height: 299px;
+    border-top: 2px solid #cc8091;
+    padding-top: 10px;
+    float: right;
+}
+
+.line1 {
+    text-transform: uppercase;
+    border-bottom: 2px solid #262220;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 5px;
+}
+
+.line1 big {
+    font-size: 18px;
+}
+
+.line3 {
+    display: inline-block;
+    font-size: 10px;
+    font-family: "楷体";
+    color: #676767;
+    font-style: italic;
+    line-height: 12px;
+}
+
+.line3:first-letter {
+    text-transform: uppercase;
+}
+
+.line4 {
+    display: inline-block;
+    font-size: 116px;
+    color: #75b86b;
+    font-family: "微软雅黑";
+    font-style: oblique;
+    line-height: 130px;
+    margin-bottom: 20px;
+}
+
+.about > .bottom .one {
+    display: block;
+    float: left;
+    font-size: 55px;
+    color: #cc8091;
+    line-height: 55px;
+}
+
+.about > .bottom .two {
+    display: inline-block;
+    font-size: 21px;
+    color: #cc8091;
+    line-height: 21px;
+    padding-top: 15px;
+    clear: both;
+}
+
+.about > .bottom .three {
+    display: block;
+    font-size: 12px;
+    color: #b5b5b6;
+    line-height: 12px;
+    clear: both;
+}
+
+.center {
+    margin: 20px 0px 40px 0px;
+}
+
+.center > ul {
+    height: 220px;
+    overflow: hidden;
+}
+
+.center > ul > li > h3 {
+    padding: 0px 0px 10px 0px;
+    text-decoration: underline;
+}
+
+.center ul > li {
+    width: 200px;
+    float: left;
+    list-style: none;
+    margin-right: 20px;
+}
+
+.title1 {
+    color: #428c59;
+}
+
+.title2 {
+    color: #d49f59;
+}
+
+.title3 {
+    color: #cc7680;
+}
+
+.center ul > li > p {
+    font-size: 12px;
+    color: #767777;
+    line-height: 20px;
+}
+
+.center ul > li > ul {
+    margin: 20px 0px 20px 0px
+}
+
+.center ul > li > ul > li {
+    font-size: 12px;
+    color: #231815;
+    line-height: 20px;
+    opacity: 0.7;
+}
+
+.center ul > li > ul .mark {
+    font-size: 12px;
+    color: #cd4a48;
+    line-height: 16px;
+    opacity: 0.7;
+    height: 100px;
+}
+
+.maintext > .left {
+    width: 410px;
+    float: left;
+}
+
+.maintext > .left > h2 {
+    text-transform: uppercase;
+    border-bottom: 2px solid #10456b;
+    padding-bottom: 10px;
+    color: #10456b;
+}
+
+.maintext > .left > h2 > mark {
+    color: #f4e328;
+    font-size: 50px;
+    background: white;
+    font-style: italic;
+    margin-right: 20px;
+}
+
+.maintext > .left img {
+    float: right;
+    margin: 20px 0px 20px 20px;
+}
+
+.maintext > .left p {
+    margin: 10px 0px 10px 0px;
+    font-size: 10px;
+    color: #CCCCCC;
+    line-height: 16px;
+}
+
+.maintext > .left p.second {
+    text-indent: 20px;
+}
+
+.maintext > .left p.first:first-letter {
+    font-size: 40px;
+    float: left;
+    color: #f4e328;
+    margin-right: 10px;
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    
+}
+
+.maintext > .right {
+    width: 460px;
+    float: right;
+}
+
+.maintext > .right .top {
+    overflow: hidden;
+    width: 460px;
+    position: relative;
+}
+
+.maintext > .right .show {
+    box-sizing: border-box;
+    height: 60px;
+    background: black;
+    opacity: 0.7;
+    padding: 8px 38px;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+
+.maintext > .right .show .first {
+    display: inline-block;
+    height: 100%;
+    border-left: 3px solid #72b069;
+    color: white;
+    font: 25px "微软雅黑";
+    line-height: 44px;
+    padding-left: 10px;
+}
+
+.maintext > .right .show .second {
+    display: inline-block;
+    color: #73a86c;
+    font-style: oblique;
+    font-family: "微软雅黑";
+    font-size: 12px;
+}
+
+.maintext > .right > .bottom {
+    background: #eeedd6;
+    margin-top: 20px;
+}
+
+
+.list {
+    padding: 30px;
+}
+
+.list >ul >li {
+    font-family: "微软雅黑";
+    position: relative;
+    margin: 10px 0px;
+    list-style: none;
+    word-break: keep-all;
+    overflow: hidden;
+    height: 24px;
+}
+
+.list .sanjiao {
+    float: left;
+    height: 0px;
+    width: 0px;
+    border-bottom: 10px solid #10456b;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    margin: 5px 15px 0px 5px;
+}
+
+.list .star {
+    position: absolute;
+    left: 25px;
+    top: 0px;
+    background: #eeedd6;
+    padding-right: 10px;
+    color: #6c6a67;
+}
+
+.list .end {
+    position: absolute;
+    right: 0px;
+    top: 2px;
+    background: #eeedd6;
+    color: #6c6a67;
+    font-size: 14px;
+}
+
+.dis {
+    float: left;
+    background: #d45d5c;
+    height: 90px;
+    width: 260px;
+    padding: 40px 0px 30px 0px;
+}
+
+.zero {
+    display: block;
+    font-size: 86px;
+    line-height: 86px;
+    color: white;
+    float: left;
+    border-right: 5px solid #ffffff;
+    margin-right: 10px;
+    padding: 0px 10px 0px 10px;
+}
+
+.bigone {
+    padding-top: 10px;
+    font-size: 16px;
+    line-height: 20px;
+    color: white;
+    font-style: oblique;
+    text-transform: uppercase;
+    margin-right: 20px;
+}
+
+.smallone {
+    font-size: 10px;
+    color: white;
+    margin-right: 20px;
+}
+
+.dis2 {
+    height: 120px;
+    width: 160px;
+    padding: 20px;
+    float: left;
+    position: relative;
+    font-size: 12px;
+    color: #6c6a67;
+}
+.dis2 p{
+    text-indent: 30px; padding: 0px ; margin: 0px;}
+.son1 {
+    font: "黑体";
+    letter-spacing: 0px;
+    color: #d45d5c;
+    font-size: 40px;
+    position: absolute;
+    top: -20px;
+    left: -20px;
+}
+
+.son2 {
+    font: "黑体";
+    letter-spacing: 0px;
+    color: #d45d5c;
+    font-size: 40px;
+    position: absolute;
+    bottom: -20px;
+    right: -20px;
+}
+
+footer {
+    margin: 0px auto;
+    width: 892px;
+    overflow: hidden;
+    border-top: 2px solid #938e8c;
+}
+
+footer > span {
+    float: right;
+    font-size: 12px;
+    color: #d45d5c;
+}
+
+.clear:after {
+    content: "";
+    display: block;
+    clear: both;
+    visibility: hidden;
+}

@@ -194,6 +194,7 @@ aside table tbody td > textarea {
 aside table tfoot td > input {
 	width: 100%;
 	line-height: 40px;
+	height: 40px;
 	color: white;
 	background: #3366cc;
 	font-weight: bolder;
