@@ -1,13 +1,13 @@
 * {
     margin: 0px;
     padding: 0px;
-    font-family: "微软雅黑";
 }
 
 body {
     margin: 0px auto;
     height: 1386px;
     width: 980px;
+    font-family: "黑体";
 }
 
 body > header {
@@ -44,7 +44,7 @@ main {
 }
 
 main > article {
-    margin: 35px 0px 40px 0px;
+    margin: 35px 0px 20px 0px;
 }
 
 article > header > .banner {
@@ -154,6 +154,8 @@ article > header > .about {
 .center > ul > li > h3 {
     padding: 0px 0px 10px 0px;
     text-decoration: underline;
+    font-size:16px;
+    font-weight: bold;
 }
 
 .center ul > li {
@@ -178,7 +180,8 @@ article > header > .about {
 .center ul > li > p {
     font-size: 12px;
     color: #767777;
-    line-height: 20px;
+    line-height: 16px;
+    font-family: "宋体";
 }
 
 .center ul > li > ul {
@@ -188,7 +191,7 @@ article > header > .about {
 .center ul > li > ul > li {
     font-size: 12px;
     color: #231815;
-    line-height: 20px;
+    line-height: 16px;
     opacity: 0.7;
 }
 
@@ -198,6 +201,8 @@ article > header > .about {
     line-height: 16px;
     opacity: 0.7;
     height: 100px;
+    font-family:"微软雅黑"  ;
+    font-style: italic;
 }
 
 .maintext > .left {
@@ -210,14 +215,20 @@ article > header > .about {
     border-bottom: 2px solid #10456b;
     padding-bottom: 10px;
     color: #10456b;
+    font-size: 42px ;
 }
 
 .maintext > .left > h2 > mark {
     color: #f4e328;
-    font-size: 50px;
-    background: white;
+    font-size: 72px;
+    background:  white;
     font-style: italic;
     margin-right: 20px;
+}
+
+.maintext > .left > h2 .small{
+    font-size:33px;
+    display: block;
 }
 
 .maintext > .left img {
@@ -230,6 +241,7 @@ article > header > .about {
     font-size: 10px;
     color: #CCCCCC;
     line-height: 16px;
+    font-family: "宋体";
 }
 
 .maintext > .left p.second {
@@ -237,30 +249,31 @@ article > header > .about {
 }
 
 .maintext > .left p.first:first-letter {
-    font-size: 40px;
+    font-size: 70px;
     float: left;
     color: #f4e328;
     margin-right: 10px;
     display: block;
-    height: 40px;
-    line-height: 40px;
+    height: 70px;
+    line-height: 70px;
+    font-family: "微软雅黑";
     
 }
 
 .maintext > .right {
-    width: 460px;
+    width: 458px;
     float: right;
 }
 
 .maintext > .right .top {
     overflow: hidden;
-    width: 460px;
+    width: 458px;
     position: relative;
 }
 
 .maintext > .right .show {
     box-sizing: border-box;
-    height: 60px;
+    height: 61px;
     background: black;
     opacity: 0.7;
     padding: 8px 38px;
@@ -275,7 +288,7 @@ article > header > .about {
     height: 100%;
     border-left: 3px solid #72b069;
     color: white;
-    font: 25px "微软雅黑";
+    font: 26px "微软雅黑";
     line-height: 44px;
     padding-left: 10px;
 }
@@ -284,6 +297,7 @@ article > header > .about {
     display: inline-block;
     color: #73a86c;
     font-style: oblique;
+    letter-spacing: 2px;
     font-family: "微软雅黑";
     font-size: 12px;
 }
@@ -325,6 +339,7 @@ article > header > .about {
     background: #eeedd6;
     padding-right: 10px;
     color: #6c6a67;
+    font-size: 16px;
 }
 
 .list .end {
@@ -332,31 +347,40 @@ article > header > .about {
     right: 0px;
     top: 2px;
     background: #eeedd6;
-    color: #6c6a67;
-    font-size: 14px;
+    color: #5a5b5b;
+    font-size: 12px;
+    font-style: oblique;
+    font-family: "宋体";
 }
 
 .dis {
     float: left;
     background: #d45d5c;
-    height: 90px;
+    height: 110px;
     width: 260px;
-    padding: 40px 0px 30px 0px;
+    padding: 30px 0px 20px 0px;
 }
 
 .zero {
+    font-family: "微软雅黑";
     display: block;
-    font-size: 86px;
-    line-height: 86px;
+    width: 80px;
+    font-size: 110px;
+    line-height: 110px;
     color: white;
     float: left;
-    border-right: 5px solid #ffffff;
     margin-right: 10px;
-    padding: 0px 10px 0px 10px;
+    padding: 0px 5px 0px 10px;
 }
+.split{
+    display: block;
+    float: right;
+    border-right: 5px solid #ffffff;
+    height: 86px;
+    margin: 12px 0px 0px 0px;}
 
 .bigone {
-    padding-top: 10px;
+    padding-top: 20px;
     font-size: 16px;
     line-height: 20px;
     color: white;
@@ -373,9 +397,9 @@ article > header > .about {
 
 .dis2 {
     height: 120px;
-    width: 160px;
+    width: 158px;
     padding: 20px;
-    float: left;
+    float: right;
     position: relative;
     font-size: 12px;
     color: #6c6a67;
@@ -388,8 +412,8 @@ article > header > .about {
     color: #d45d5c;
     font-size: 40px;
     position: absolute;
-    top: -20px;
-    left: -20px;
+    top: -10px;
+    left: -25px;
 }
 
 .son2 {
@@ -398,15 +422,16 @@ article > header > .about {
     color: #d45d5c;
     font-size: 40px;
     position: absolute;
-    bottom: -20px;
-    right: -20px;
+    bottom: -10px;
+    right: -25px;
 }
 
 footer {
+    height: 50px;
     margin: 0px auto;
     width: 892px;
     overflow: hidden;
-    border-top: 2px solid #938e8c;
+    border-top: 1px solid #938e8c;
 }
 
 footer > span {
