@@ -1,0 +1,134 @@
+html,body,h1,h2,h3,ul,p,button,figure,dl{padding:0em;margin: 0em;}
+body{font-size:62.5%;min-width: 1280px; font-family: "微软雅黑";}
+.hr{width: 2.5em; height: 0.2em; margin: 0px auto; clear: both; background: white;}
+
+.clear:after{content: ""; display: block; height: 0em; font-size: 0em; clear: both;}
+header{width: 100%; height: 4.75em; font-size: 1.2em;}
+.logo{ width: 10.5em; height: 4.75em; float: left; padding-left:6em; font-size:1em; }
+.logo img{ width: 3.1em; height: 3.1em;  float: left; margin-top:1em;}
+.logo h1 {color: #333333;  line-height: 1em; height: 1em; font-size:1.8em; float: left; margin-top:1em;}
+nav { height: 4.75em; float: right;}
+nav ul{ height: 4.75em; float: right;}
+nav li{ list-style-type: none;float:left; padding-left:0.2em; height: 4.75em;  } 
+nav li.login > a{ color: #e74f4d;} 
+nav li.login img{ border: 0em;     vertical-align: sub; margin-right:0.1em;} 
+nav a{ display:block;color: #787b83; text-decoration: none;line-height: 4.5em;   padding: 0em 2em 0em 2em; }
+nav a:hover{ border-bottom: 0.4em solid #e74f4d ; color:#e74f4d;}
+
+.banner{background: url(../img/pic1.png); height: 69em; background-size: cover; box-sizing:border-box; padding: 19.1em 0em 0em 10em;}
+.banner > h2{ font-size:4.5em; color: white;}
+.banner > p{ font-size:2em; color: white; line-height: 1.5em; margin:0.5em 0em 2em 0em; }
+#start{ background: #e74f4d; border:0; font-size:2.7em; line-height: 2.3em; height:2.3em; width: 12.2em; color: white; font-family: "微软雅黑"; outline: 0px;}
+#start:hover{ background: #f45654;}
+#start:active{ background: #d14a48;}
+
+.youknow{overflow: hidden; font-size:1.2em;}
+.youknow > ul {overflow: hidden;}
+.youknow > ul > li { float: left; list-style: none; width: 26.5em; overflow: hidden; }
+.youknow > ul > li a{ color: #8d8d8d; border: 0em; text-decoration: none; display: block;}
+.youknow > ul > li a .mark{width: 3.5em; height: 3.5em; margin: 3.5em auto; }
+.youknow > ul > li a .text{ text-align:center; font-size:1em ; box-sizing: border-box;width: 100%; padding:0em 6.66em 1.5em ;border-left:1px solid #777777;}
+.youknow > ul > li a .text:first-child{border-left:0px;}
+.mark1{ background: url(../img/menu——pic1.png); background-size: contain;}
+.mark2{ background: url(../img/menu——pic2.png); background-size: contain;}
+.mark3{ background: url(../img/menu——pic3.png); background-size: contain;}
+.mark4{ background: url(../img/menu——pic4.png); background-size: contain;}
+
+.knowmore{ height: 30em; font-size:1.2em; width: 100%; background: #ededed; overflow: hidden;margin-top:5.5em;}
+.logopic{ height: 7.5em; width: 7.5em; margin: 7em auto 3em;}
+.logopic img{ height: 100%;}
+.knowmore > p { text-align: center;font-size: 4em; color: #a1a1a1;}
+
+.city{ font-size: 1.2em; height: 28.3em;  background: url(../img/pic2.png) ; background-size: cover; background-repeat: no-repeat; overflow: hidden; }
+.city > h2 { text-align: center; color: #FFFFFF; font-size: 1.667em; margin-top: 2.7em ;}
+.city > .hr { margin: 1em auto 1.5em;}
+.city > p { text-align: center; color: #FFFFFF; line-height: 1em; font-size: 1em;}
+.city > form#search_city{ width: 86em; margin:52px auto 0px;}
+#search_city > select {border-top: 0em; border-bottom: 0em; border-left:0.1em solid #cccccc ;border-right:0.1em solid #cccccc; width: 18em; height: 3em ; line-height: 3em; color: #aaaaaa;    padding-left: 10px; margin-right:1.5em ;}
+#search_city > select  >option  { border: 0px; background: #e3e3e4; color:#89898a; line-height: 2em; height: 2em; font-family: "微软雅黑"; }
+#search_city > select > option:selection { background: #bf4f49;}
+#search_city > input {width: 17em; background-color: #bf4f48; height: 3em; color: #aaaaaa; font-size: 1.15em; border: 0px; color: white; font-weight: bold; }
+.activeshow {overflow: hidden; background: #f7f7f7; padding: 8em 0em 9em 0em; font-size: 1.2em;}
+.activeshow ul {width: 82.5em; height: 32.5em; margin: 0em auto;}
+.activeshow li {float: left; list-style: none; text-align: center; margin: 0em 1em; width: 18.3em; position: relative; }
+.activeshow li div {padding:0.6em 0.4em; border:0.1em solid #e0e0e0; border-bottom: 0px; background: white; box-sizing:border-box; width: 100%; position: absolute; top:0px; height:18.6em; overflow: hidden; font-size: 1.5em;}
+.activeshow li div img{height: 100%;}
+.activeshow li h3 { height: 3.2em; line-height: 1.6em;  font-size: 1.3em; font-weight:initial; color:#333333 }
+.activeshow li h3 span { display: block;color: #a6a6a6; font-size: 0.9em; }
+.activeshow li:hover div { top:3em;}
+.activeshow li figcaption {margin-bottom: 16em; height: 2.78em; font-size: 1.5em; text-align: justify; color:#333333}
+.activeshow li figcaption span{ display: inline-block; text-align: center; padding-left: 100%; text-indent: -100%; font-size: 0.8em; color: #818181;}
+
+.descr { font-size: 1.2em; clear: both;}
+.pic{ float: left; overflow: hidden; width: 66.6%;}
+.pic > ul {display: table; position: relative; float: left; width: 100%;}
+.pic > ul > li.one {display: table-cell; text-align: center;width: 100%; vertical-align: middle; background: url(../img/pic4.png); background-size: cover; height:47em}
+.pic > ul > li.two {}
+.pic > ul > li.three {}
+.pic > ul > li.show {}
+.pic > ul p {display: block;}
+.pic > ul p.text{ font-size: 4em; color:white}
+.pic > ul big{ font-size: 2.5em; display: block; height: 0.9em; line-height: 0.9em;}
+.pic > ul small{ font-size: 0.42em; display: block; margin-top:1em;}
+.pic > ul .sanjiao{position: absolute; right: 0em ; top:22.5em;  width: 2.5em; height: 0em;   border-right:30px solid #FFFFFF ; border-top: 20px solid transparent;border-bottom: 20px solid transparent;}
+div.text{ text-align: center; }
+div.text > .content1{ overflow: hidden;}
+div.text > .show{}
+div.text > .content1 > h2{ margin-top:6.67em ; color:#333333 }
+div.text > .content1 > h2 span{color: #e74f4d ; }
+div.text > .content1 > p {color: #b0b0b0 ; font-size: 0.834em; line-height: 3em; margin: 2em 8em 3em ; text-align: left;}
+div.text > .select_bottom  {overflow: hidden;   width: 7em; margin: 2em auto;}
+div.text > .content1 > button{  width: 8.34em; height: 2.6em; background: #ffffff; border:0.2em solid #e5676a ; color: #e5676a; outline: 0em;}
+div.text > .content1 > button:hover{ background: #e5676a;  color: #ffffff; }
+div.text > .select_bottom  li { float: left; list-style: none; height: 1em; width: 1em; background: white; border:1px solid #919192; border-radius: 0.5em; margin: 0em 0.5em 0em 0.5em;}
+div.text > .select_bottom  li:hover { background: #919192;}
+
+
+.us {clear: both;font-size: 1.2em;}
+.us > div { float: left;}
+.us > div > .more{width: 8.5em; height:2em; font-size: 1.67em; font-family: "微软雅黑"; }
+.us > div > .hr{margin:3em auto; }
+.us > div { height: 43.4em; overflow: hidden; text-align: center;}
+.us > div > p{font-size: 1.67em; margin-top: 8em;}
+
+.us .divone{ background: #e74f4d; color: #FFFFFF; width: 33.3%; }
+.us .divone > .more {color: #FFFFFF;background:#e74f4d ; border: 0.1em solid #FFFFFF;}
+.us .divtwo{background: #FFFFFF; color: #e74f4d;width: 33.3%; }
+.us .divtwo > .hr{ background: #e74f4d;  }
+.us .divtwo > .more{background: #FFFFFF; border:0.1em solid #e74f4d;  color: #e74f4d;}
+.us .divthree{ width:33.4%; height: 43.4em; overflow: hidden; background: url(../img/pic5.png); background-size: cover; position: relative;}
+.us .divthree .sanjiao{position: absolute; left: 0em ; top:22.5em;  width: 2.5em; height: 0em;  border-left:30px solid #FFFFFF ; border-top: 20px solid transparent;border-bottom: 20px solid transparent;}
+
+.join_us{font-size: 1.2em;text-align: center; margin-bottom:13em ;}
+.join_us > h2{font-size: 1.67em; margin-top: 6em; color: #333333;}
+.join_us > .hr{margin: 1em auto; background:#e74f4d ;}
+.join_us > p{ line-height: 1.67em; color: #aaaaaa; margin-bottom: 8.34em;}
+.main { margin: 0em auto ; width: 70%;}
+.tiaokuan{ float: left; width:40%;}
+.tiaokuan dl dt{padding-top:0.5em ;}
+.tiaokuan dl dt h3{  color:#666160;}
+.tiaokuan dl dd {color:#b5b3b3; margin:2em 0em; position: relative; line-height: 1.67em;}
+.tiaokuan dl .more{display: block;  clear: both;  position: absolute; right: 0px;}
+.biaodan{ float: right; width:58%;}
+.biaodan  input{background-color:#ededed; border: 0px; line-height: 3.34em; padding-left: 1em; width: 45%; margin: 1% 0.5%;}
+.biaodan  textarea{background-color:#ededed; border: 0px;   width: 95.5%; clear: both; text-align: left; margin: 0em 0.3em; height: 10em; padding: 1em 1.5em;box-sizing: border-box; margin: 1%;}
+.biaodan input[type=submit] { width: 95.5%; background-color:#ededed;font-family:"微软雅黑";}
+ .join_us .tiaokuan {text-align:left;}
+
+footer{ width: 100%; background: #32363e; font-size: 1.2em; }
+.contect_us{ width: 43em; margin: 0em auto; text-align: center; padding: 7.5em 0em 5.8em;}
+.contect_us h2{ font-size: 1.67em; color:white; line-height: 2em;}
+.contect_us p{color:white;}
+.email_post {margin: 2.5em 0em;}
+.email_post input[type=email]{margin: 2.5em 0em; line-height: 3.33em; text-indent:1em; box-sizing: border-box; width: 33em;padding: 0em; border: 0em;}
+.email_post input[type=submit]{margin: 2.5em 0em;  line-height: 3.33em;  box-sizing: border-box; background:#6f7178 ; color: white;  width: 5em; border:0em;letter-spacing:0.5em; padding: 0em;font-family: "微软雅黑";}
+.contect_us > ul  { display: inline-block; text-align: center;}
+.contect_us > ul li {list-style: none; float: left; margin:  0em 1em;}
+.copyright{background: #2f3038; padding-top: 1em; color: white;}
+.copyright .left{ float: left;  padding: 1em 2em;}
+.copyright .right{float: right;  padding: 1em 2em;}
+.copyright .right a{color: white; text-decoration: none;}
+@media only screen and (min-width: 1280px) {
+.youknow > ul > li { width: 25%;  }
+	
+}
