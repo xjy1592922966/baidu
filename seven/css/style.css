@@ -123,7 +123,9 @@ footer{ width: 100%; background: #32363e; font-size: 1.2em; }
 .email_post input[type=email]{margin: 2.5em 0em; line-height: 3.33em; text-indent:1em; box-sizing: border-box; width: 33em;padding: 0em; border: 0em;}
 .email_post input[type=submit]{margin: 2.5em 0em;  line-height: 3.33em;  box-sizing: border-box; background:#6f7178 ; color: white;  width: 5em; border:0em;letter-spacing:0.5em; padding: 0em;font-family: "微软雅黑";}
 .contect_us > ul  { display: inline-block; text-align: center;}
-.contect_us > ul li {list-style: none; float: left; margin:  0em 1em;}
+.contect_us > ul li {list-style: none; float: left; margin:  0em 1em; height:2em;width: 2em;}
+.contect_us > ul li a{width: 100%;height: 100%; display: block;}
+.contect_us > ul li img{width: 100%;height: 100%;display: block;}
 .copyright{background: #2f3038; padding-top: 1em; color: white;}
 .copyright .left{ float: left;  padding: 1em 2em;}
 .copyright .right{float: right;  padding: 1em 2em;}
