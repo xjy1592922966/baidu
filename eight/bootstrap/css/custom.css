@@ -1,0 +1,6 @@
+nav > h1 { margin:0px;}
+.logo { float: left; height: 50px;padding-left: 10px;}
+.main{ text-align: center; width: 100%; box-sizing: border-box; padding: 10px; }
+.main > div > div{    box-sizing: border-box;  padding:10px;}
+.row { margin: 0px;}
+.limian{ border: 1px solid #999; background: #eee;height:50px; line-height: 50px; }
