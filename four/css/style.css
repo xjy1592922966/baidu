@@ -7,6 +7,7 @@ html {
 	height: 100%;
 	font-family: "微软雅黑";
 	margin: 0px;
+
 }
 
 body > header {
@@ -53,9 +54,24 @@ header > nav > ul li a:hover {
 
 main {
 	height: 100%;
-	padding-top: 60px;
+	width: 100%;
 	position: relative;
 	top: 120px;
+	
+	
+	
+	/* 表格 */
+	display: table;
+	/* 表格 */
+	
+	
+	/*flex*/
+/*	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+*/
+	/*flex*/
 }
 
 
@@ -64,9 +80,14 @@ main {
 .nei {
 	width: 100%;
 	height: 100%;
-	position: relative;
 }
 
+
+	/* 表格 */
+.wai { display: table-cell;
+vertical-align: middle;}
+	/* 表格 */
+	
 .son {
 	width: 100px;
 	height: 100px;
@@ -74,52 +95,6 @@ main {
 	background: #ffcc00;
 }
 
-
-/* 这里里面两个黄色的圆使用margin进行移动 */
-
-
-/*
- 	优缺点分析：
- 	
- 		优点：
- 		1.使用的时候，可以不用考虑 父的宽。
- 		
- 		注意： 因为在按照我理解的来使用margin-bottom ： 负值 的时候没效果。 所以只能使用margin-top 。
- 		
- 		缺点：
-		1.父需要是相对定位， 因此该任务需要为灰色长方形追加一个内框并且加上相对定位。
-  		2.如果 父 内除了这个两个元素还有别的元素，那么那些元素的排版会受到这两个圆在标准文档流内的占位的影响。会给我们造成困扰
-  */
-
-
-/*
-.father {
-	width: 400px;
-	height: 200px;
-	background: #CCCCCC;
-	position: absolute;
-	left: 50%;
-	top: 50%;
-	margin-top: -100px;
-	margin-left: -200px;
-	overflow: hidden;
-	z-index: 1;
-}
-
-.first {
-	float: left;
-	clear: both;
-	margin-left: -50px;
-	margin-top: -50px;
-}
-
-.second {
-	float: right;
-	clear: both;
-	margin-right: -50px;
-	margin-top: 100px;
-}
-*/
 
 
 /* 里面的两个圆使用absolute*/
@@ -137,18 +112,16 @@ main {
   */
 
 
-/*
 .father {
 	width: 400px;
-	height: 200px;
+	min-height: 200px;
 	background: #CCCCCC;
-	position: absolute;
-	left: 50%;
-	top: 50%;
-	margin-top: -100px;
-	margin-left: -200px;
 	overflow: hidden;
-	z-index: 1;
+	position: relative;
+	
+	/* 表格 */
+	margin: 0px auto;
+	/* 表格 */
 }
 
 .first {
@@ -162,45 +135,8 @@ main {
 	right: -50px;
 	bottom: -50px;
 }
-
-*/
-
-
-/* 里面的两个圆使用相对定位 */
-
+.father p {  padding: 0px 50px 0px 50px;}
 
 /*
- 	优缺点分析：
- 	
- 		优点：
- 		1.根据当前文档流位置进行计算便可得出 top 与left的值。书写的时候很方便
- 		
- 		缺点：
- 		1.如果 父 的边框未知，那么这效果做不出来。
- 		2.如果 父 内除了这个两个元素还有别的元素，那么那些元素的排版会受到这两个圆在标准文档流内的占位的影响。会给我们造成困扰
-  */
-
-.father {
-	width: 400px;
-	height: 200px;
-	background: #CCCCCC;
-	position: absolute;
-	left: 50%;
-	top: 50%;
-	margin-top: -100px;
-	margin-left: -200px;
-	overflow: hidden;
-	z-index: 1;
-}
-
-.first {
-	position: relative;
-	top: -50px;
-	left: -50px;
-}
-
-.second {
-	position: relative;
-	top: 50px;
-	left: 350px;
-}
+ 兼容性比较好的是 表格方法
+ */
